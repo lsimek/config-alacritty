@@ -1,0 +1,75 @@
+live_config_reload = true
+
+[colors.dim]
+black = "#eeeeee"
+yellow = "#ffa0a0" 
+blue = "#80e7ea"
+green = "#c2ff79"
+magenta = "#d654cf"
+red = "#e0c6ff"
+white = "#eeeeee"
+cyan = "#b0e0ff"
+
+[colors.normal]
+black = "#eeeeee"
+yellow = "#ffa0a0" 
+blue = "#80e7ea"
+green = "#c2ff79"
+magenta = "#ff80ff"
+red = "#e0c6ff"
+white = "#eeeeee"
+cyan = "#b0e0ff"
+
+[colors.bright]
+black = "#f1f1f1"
+yellow = "#ff8080"
+blue = "#96ebee"
+green = "#ceff93"
+magenta = "#e644bf"
+red = "#c99dff"
+white = "#f1f1f1"
+cyan = "#90e0ff"
+
+[colors.primary]
+background = "#222222"
+dim_foreground = "#222222"
+foreground = "#eeeeee"
+
+[colors.search.matches]
+background = "#88c0d0"
+foreground = "CellBackground"
+
+[colors.selection]
+background = "#4c566a"
+text = "CellForeground"
+
+[colors.vi_mode_cursor]
+cursor = "#eeeeee"
+text = "#222222"
+
+[colors.search]
+focused_match = {background = "#222222", foreground = "#eeeeee"} 
+
+[font]
+size = 10
+
+[font.normal]
+# family = "JetbrainsMonoNL"
+family = "Hack Nerd Font Mono"
+style = "Regular"
+
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Control|Shift"
+
+[shell]
+program = "/bin/fish"
+
+[window.padding]
+x = 20
+y = 20 
+
+[window]
+opacity = 0.7 
